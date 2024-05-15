@@ -1,0 +1,1 @@
+const shoppingList = ["Parrucca", "Gelati", "Mozzarelle", "Lanciafiamme", "Spada Vorpal", "Set dadi"];
