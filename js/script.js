@@ -2,9 +2,10 @@ const shoppingList = ["Parrucca", "Gelati", "Mozzarelle", "Lanciafiamme", "Spada
 let articleEl = document.createElement("li");
 let listEl = document.querySelector("ul");
 
-const listArticles = 0;
+let listArticles = 0;
 
 while(listArticles < shoppingList.length) {
-    listEl.appendChild(li);
     articleEl.append(shoppingList[listArticles]);
+    listEl.appendChild(articleEl);
+    listArticles++
 }
