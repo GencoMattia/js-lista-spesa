@@ -4,4 +4,7 @@ let listEl = document.querySelector("ul");
 
 const listArticles = 0;
 
-while()
+while(listArticles < shoppingList.length) {
+    listEl.appendChild(li);
+    articleEl.append(shoppingList[listArticles]);
+}
